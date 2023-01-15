@@ -629,3 +629,152 @@ p {
     color: #088178;
 }
 
+/* Banners Section */
+
+.sara__banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.sara__banner .sara__banner-content1, .sara__banner .sara__banner-content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    min-width: 650px;
+    height: 50vh;
+}
+
+.sara__banner .sara__banner-content1 button, .sara__banner .sara__banner-content2 button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 180px;
+    transition: .3s ease;
+}
+
+.sara__banner .sara__banner-content1 button:hover, .sara__banner .sara__banner-content2 button:hover {
+    color: #fff;
+    background-color: #088178;
+    border: 2px solid #088178;
+}
+
+.sara__banner .sara__banner-content1 {
+    background-image: url(./img/banner/b17.jpg);
+}
+
+.sara__banner .sara__banner-content2 {
+    background-image: url(./img/banner/b10.jpg);
+}
+
+.sara__banner .sara__banner-box2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sara__banner .sara__banner-box2 .sara_banner-box2_content1, .sara__banner .sara__banner-box2 .sara_banner-box2_content2, .sara__banner .sara__banner-box2 .sara_banner-box2_content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    min-width: 30%;
+    height: 30vh;   
+}
+
+.sara__banner .sara__banner-box2 .sara_banner-box2_content1 {
+    background-image: url(./img/banner/b7.jpg);
+}
+
+.sara__banner .sara__banner-box2 .sara_banner-box2_content2 {
+    background-image: url(./img/banner/b4.jpg);
+}
+
+.sara__banner .sara__banner-box2 .sara_banner-box2_content3 {
+    background-image: url(./img/banner/b18.jpg);
+}
+
+.sara__banner .sara__banner-box2 .sara_banner-box2_content1 h2, .sara__banner .sara__banner-box2 .sara_banner-box2_content2 h2 ,.sara__banner .sara__banner-box2 .sara_banner-box2_content3 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.sara__banner .sara__banner-box2 .sara_banner-box2_content1 h3, .sara__banner .sara__banner-box2 .sara_banner-box2_content2 h3 ,.sara__banner .sara__banner-box2 .sara_banner-box2_content3 h3 {
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+
+/* Newsletter Section */
+
+.sara__newsletter {
+    background-image: url(./img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+.sara__newsletter .sara__newsletter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1.25rem 0;
+}
+
+.sara__newsletter .sara__newsletter-content .sara__newsletter-content_text h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.sara__newsletter .sara__newsletter-content .sara__newsletter-content_text p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #cce7d0;
+}
+
+.sara__newsletter .sara__newsletter-content .sara__newsletter-content_text span {
+    color: #ffbd27;
+}
+
+.sara__newsletter .sara__newsletter-content .sara__newsletter-content_input {
+    display: flex;
+    width: 40%;
+}
+
+.sara__newsletter .sara__newsletter-content .sara__newsletter-content_input input {
+    color: #606063;
+    font-size: 1.1rem;
+    outline: none;
+    padding: 0 1.25rem;
+    height: 3.125rem;
+    width: 100%;
+}
+
+.sara__newsletter .sara__newsletter-content .sara__newsletter-content_input button {
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 30%;
+    color: #fff;
+    background-color: #088178;
+    font-size: 1rem;
+    font-weight: 600;
+}
