@@ -106,7 +106,7 @@ p {
     transition: .25s ease;
 }
 
-.sara__navbar .sara__navbar-navLinks li a:hover, .navbar .sara__navbar-navLinks li a.active, .sara__navbar .toggleMenu a:hover {
+.sara__navbar .sara__navbar-navLinks li a:hover, .sara__navbar .sara__navbar-navLinks li a.active, .sara__navbar .toggleMenu a:hover {
     color: #088178;
 }
 
