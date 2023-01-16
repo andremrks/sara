@@ -12,16 +12,19 @@
     <nav class="sara__navbar">
         <a href="#"><img src="./img/assets/logo.png" alt="Sara Store Logo" class="logo"></a>
         <div>
-            <ul class="sara__navbar-navLinks">
+            <ul id="nav" class="sara__navbar-navLinks">
+                <li id="close" class="closeBtn"><i class="bi bi-x"></i></li>
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a></li>
+                <li id="cart"><a href="cart.html"><i class="bi bi-handbag"></i></a></li>
             </ul>
+        </div>
+        <div class="toggleMenu">
+            <a href="cart.html"><i class="bi bi-handbag"></i></a>
+            <i id="bar" class="bi bi-three-dots-vertical"></i>
         </div>
     </nav>
     
@@ -446,6 +449,61 @@
         </div>
     </section>
 
-    <script src="./srcipt.js"></script>
+    <footer class="sara__footer section-p1">
+        <div class="sara__footer-content">
+            <div class="sara__footer-content_col">
+                <img src="./img/assets/logo.png" alt="Sara Logo" class="sara__footer-content_col-logo">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong>Av. Champs Élysées, 562 - Paris </p>
+                <p><strong>Phone: </strong>+01 222 365 / +91 01 2345 6789</p>
+                <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+                <div class="sara__footer-content_followIcons">
+                    <h4>Follow Us</h4>
+                    <div class="icons">
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-pinterest"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sara__footer-content_col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="sara__footer-content_col">
+                <h4>My account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="sara__footer-content_col">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="sara__footer-content-stores">
+                    <img src="./img/pay/app.jpg" alt="App Store">
+                    <img src="./img/pay/play.jpg" alt="Google Play">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="./img/pay/pay.png" alt="Payments Methods">
+            </div>
+
+        </div>
+        <div class="sara__footer-copy">
+            <p>© <a href="https://andremrks.github.io/social-links/" target="_blank">André Marques</a> 2023</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
