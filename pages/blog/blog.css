@@ -1,0 +1,102 @@
+.sara__blog-header {
+    background-image: url(../../img/banner/b19.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sara__blog-header h2, .sara__blog-header p {
+    color: #fff;
+}
+
+.sara__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sara__pagination a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    background-color: #088178;
+    padding: 1rem 1.1rem;
+    margin: .2rem;
+    border-radius: 4px;
+}
+
+.sara__blog-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5.5rem;
+}
+
+.sara__blog-box h1 {
+    position: absolute;
+    top: -45px;
+    left: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -10;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, .4);
+}
+
+.sara__blog-posts {
+    padding: 150px 150px 0 150px;
+}
+
+.sara__blog-box .sara__blog-posts_imageBox {
+    width: 50%;
+    margin-right: 2.5rem;
+}
+
+.sara__blog-box .sara__blog-posts_imageBox img {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.sara__blog-box .sara__blog-posts_details {
+    width: 50%;
+}
+
+.sara__blog-box .sara__blog-posts_details a {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: .15s ease-in-out;
+    position: relative;
+}
+
+.sara__blog-box .sara__blog-posts_details a:hover {
+    color: #088178;
+}
+
+.sara__blog-box .sara__blog-posts_details a::after {
+    content: '';
+    top: 4px;
+    right: -60px;
+    width: 50px;
+    height: 1px;
+    background-color: #1a1a1a;
+    position: absolute;
+}
+
+.sara__blog-box .sara__blog-posts_details a:hover::after {
+    background-color: #088178;
+}
+

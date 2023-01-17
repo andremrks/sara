@@ -1,0 +1,77 @@
+.sara__productDetails {
+    display: flex;
+    margin-top: 1.25rem;
+}
+
+.sara__productDetails-images {
+    width: 40%;
+    margin-right: 3rem;
+}
+
+.sara__productDetails-images img {
+    width: 100%;
+}
+
+.sara__productDetails-images .sara__productDetails-imgGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    cursor: pointer;
+}
+
+.sara__productDetails-imgGroup:hover > :not(:hover) {
+    filter: grayscale(1);
+    opacity: .5;
+}
+
+.sara__productDetails-imgGroup .sara__productDetails-imgCol {
+    transition: .5 ease;
+}
+
+.sara__productDetails .sara__productDetails-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    padding: 2rem;
+}
+
+.sara__productDetails .sara__productDetails-content h4 {
+    padding-top: 2.5rem;
+}
+
+.sara__productDetails .sara__productDetails-content h2 {
+    font-size: 1.6rem;
+}
+
+.sara__productDetails .sara__productDetails-content select {
+    cursor: pointer;
+    display: block;
+    outline: none;
+    padding: 4px 8px;
+}
+
+.sara__productDetails .sara__productDetails-content input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.sara__productDetails .sara__productDetails-content button {
+    color: #fff;
+    background-color: #088178;
+    transition: .2s ease-in-out;
+}
+
+.sara__productDetails .sara__productDetails-content button:hover {
+    background-color: #076b66;
+}
+
+.sara__productDetails .sara__productDetails-content p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.65rem;
+}
