@@ -113,6 +113,35 @@
     .sara__productDetails {
         padding: 1rem;
     }
+
+    /* About Section*/
+
+    .sara__head-containter {
+        flex-direction: column; 
+    }
+
+    .sara__head-containter .sara__head-imageBox {
+        width: 70%;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .sara__head-containter .sara__head-text {
+        width: 100%;
+    }
+
+    .sara__about-app_container .sara__about-app_videoBox {
+        width: 90%;
+    }
+
+    /* Contact Section */
+
+    .sara__contact-mapBox_informations {
+        margin-bottom: 3rem;
+    }
+    .sara__contact-mapBox .sara__contact-mapBox_map {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -259,5 +288,53 @@
     .sara__blog-box .sara__blog-posts_details {
         width: 100%;
         margin-bottom: 2rem;
+    }
+
+    /* About Section*/
+
+    .sara__head {
+        padding: 1rem;
+    }
+
+    .sara__head-containter .sara__head-imageBox {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .sara__head-containter .sara__head-text h2 {
+        font-size: 2rem;
+    }   
+
+    .sara__about-app {
+        padding: 1rem;
+    }
+
+    .sara__about-app_container h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .sara__about-app_container .sara__about-app_videoBox {
+        width: 100%;
+    }
+
+    /* Contact Section */
+
+    .sara__contact-visitUs {
+        padding: 1rem;
+    }
+
+    .sara__contact-mapBox {
+        margin-top: 2rem;
+    }
+
+    .sara__contact-mapBox_informations p, .sara__contact-mapBox_informations i {
+        font-size: 1rem;
+    }
+
+    .sara__contact-mapBox_map {
+        display: flex;
+        justify-content: center;
+        width: 50%;
     }
 }

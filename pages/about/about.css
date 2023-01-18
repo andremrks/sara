@@ -1,0 +1,56 @@
+.sara__about-header {
+    background-image: url(../../img/about/banner.png);
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sara__about-header h2, .sara__about-header p {
+    color: #fff;
+}
+
+.sara__head-containter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sara__head-containter .sara__head-imageBox {
+    width: 45%;
+    height: auto;
+    margin-right: 3rem;
+}
+
+.sara__head-containter .sara__head-imageBox img {
+    width: 100%;
+}
+
+.sara__head-containter .sara__head-text {
+    width: 40%;
+}
+
+.sara__about-app_container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sara__about-app_container a {
+    color: #088178;
+}
+
+.sara__about-app_container .sara__about-app_videoBox {
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.sara__about-app_container .sara__about-app_videoBox video {
+    width: 100%;
+}
