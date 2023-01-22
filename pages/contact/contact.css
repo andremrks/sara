@@ -26,7 +26,7 @@
    margin-bottom: 1rem;
 }
 
-.sara__contact-mapBox .sara__contact-mapBox_info h2 {
+.sara__contact-mapBox .sara__contact-mapBox_info h2, .sara__contact-formBox .sara__contact-formBox_form h2 {
    font-size: 2rem;
    margin-bottom: 1rem;
 }
@@ -55,10 +55,14 @@
     padding: 5rem;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #c9cbce;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
 }
 
 .sara__contact-formBox .sara__contact-formBox_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 65%;
     margin-right: 10rem;
 }
@@ -73,10 +77,13 @@
     font-weight: 600;
 }
 
-.sara__contact-formBox .sara__contact-formBox_form .form-group input:focus, .sara__contact-formBox .sara__contact-formBox_form .form-group textarea {
-    border-color: #c9cbce;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.sara__contact-formBox .sara__contact-formBox_form input, .sara__contact-formBox .sara__contact-formBox_form textarea {
+    padding: .5rem 1rem;
+    width: 100%;
+    outline: none;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    border: 1px solid #e1e1e1;
 }
 
 .sara__contact-formBox .sara__contact-formBox_people {
@@ -110,6 +117,7 @@
     background-color: #088178;
     border: none;
     outline: none;
+    color: #fff;
 }
 
 .sara__contact-formBox_form button:hover {

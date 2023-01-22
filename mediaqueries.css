@@ -139,6 +139,7 @@
     .sara__contact-mapBox_informations {
         margin-bottom: 3rem;
     }
+
     .sara__contact-mapBox .sara__contact-mapBox_map {
         margin-left: 0;
     }
@@ -155,13 +156,28 @@
         margin-right: 4rem;
     }
 
+    .sara__contact-formBox .sara__contact-formBox_form h2 {
+        font-size: 2.2rem;
+    }
+
     .sara__contact-formBox .sara__contact-formBox_people .sara__contact-formBox_person {
+        margin-bottom: 1rem;
         flex-direction: column;
     }
 
     .sara__contact-formBox .sara__contact-formBox_people .sara__contact-formBox_person .sara__contact-person_imgBox {
         margin-right: 0;
         margin-bottom: .5rem;
+    }
+
+    .sara__contact-formBox .sara__contact-formBox_people .sara__contact-formBox_person .sara__contact-person_imgBox img {
+        width: 70%;
+    }
+
+     /* Cart Page */
+
+     .sara__cart {
+        padding: 1.5rem;
     }
 }
 
@@ -381,6 +397,43 @@
     }
 
     .sara__contact-formBox .sara__contact-formBox_people {
+        width: 100%;
+    }
+
+    .sara__contact-mapBox .sara__contact-mapBox_info h3 {
+        font-size: .8rem;
+    }
+
+    .sara__contact-mapBox .sara__contact-mapBox_info h2 {
+        font-size: 1.2rem;
+    }
+
+    .sara__contact-mapBox .sara__contact-mapBox_info h4 {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .sara__contact-mapBox_informations {
+        margin-bottom: 1.5rem;
+    }
+
+    /* Cart Page */
+
+    .sara__cart {
+        margin-bottom: 1.5rem;
+    }
+
+    .sara__cartAdd {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .sara__cartAdd-apply {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .sara__cartAdd-totals {
         width: 100%;
     }
 }

@@ -95,8 +95,6 @@ p {
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .06);
     z-index: 999;
-    /*top: 0;
-    left: 0;*/
 }
 
 .sara__navbar .sara__navbar-navLinks {
@@ -123,7 +121,7 @@ p {
     transition: .25s ease;
 }
 
-.sara__navbar .sara__navbar-navLinks li a:hover, .sara__navbar .sara__navbar-navLinks li a.active, .sara__navbar .toggleMenu a:hover {
+.sara__navbar .sara__navbar-navLinks li a:hover, .sara__navbar .sara__navbar-navLinks li a.active, .sara__navbar .toggleMenu a:hover, .sara__navbar .sara__navbar-navLinks li a i.active {
     color: #088178;
 }
 
