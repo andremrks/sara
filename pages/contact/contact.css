@@ -49,3 +49,69 @@
 .sara__contact-mapBox .sara__contact-mapBox_map {
     margin-left: 3rem;
 }
+
+.sara__contact-formBox {
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c9cbce;
+}
+
+.sara__contact-formBox .sara__contact-formBox_form {
+    width: 65%;
+    margin-right: 10rem;
+}
+
+.sara__contact-formBox .sara__contact-formBox_form h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.sara__contact-formBox .sara__contact-formBox_form h2 {
+    font-weight: 600;
+}
+
+.sara__contact-formBox .sara__contact-formBox_form .form-group input:focus, .sara__contact-formBox .sara__contact-formBox_form .form-group textarea {
+    border-color: #c9cbce;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sara__contact-formBox .sara__contact-formBox_people {
+    width: 35%;
+}
+
+.sara__contact-formBox .sara__contact-formBox_people .sara__contact-formBox_person {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.sara__contact-formBox .sara__contact-formBox_people .sara__contact-formBox_person .sara__contact-person_info h4 {
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+.sara__contact-formBox .sara__contact-formBox_people .sara__contact-formBox_person .sara__contact-person_info p {
+   margin-bottom: 0;
+   font-size: 1.1rem;
+}
+
+.sara__contact-formBox .sara__contact-formBox_people .sara__contact-formBox_person .sara__contact-person_imgBox {
+    margin-right: 1.5rem;
+}
+
+.sara__contact-formBox_form button {
+    font-size: 1.1rem;
+    padding: .8rem 1.8rem;
+    background-color: #088178;
+    border: none;
+    outline: none;
+}
+
+.sara__contact-formBox_form button:hover {
+    background-color: #076b66;
+}
