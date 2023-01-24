@@ -18,6 +18,21 @@ function closeMenu() {
     nav.classList.remove('active')
 }
 
+//*Function to reveal section when scroll
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show')
+        } 
+    })
+})
+
+const hiddenElements = document.querySelectorAll('.hidden')
+hiddenElements.forEach((el) => observer.observe(el))
+
+
 // Discount Coupon Validation
 
 const inputCoupon = document.getElementById('inputCoupon')
@@ -118,6 +133,5 @@ smallImg[2].onclick = function() {
 smallImg[3].onclick = function() {
     mainImg.src = smallImg[3].src
 }    
-
 
 
