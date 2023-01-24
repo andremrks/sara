@@ -48,24 +48,24 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td><a href="#"><i class="bi bi-x-circle"></i></a></td>
+                <tr id="product1">
+                    <td class="removeProduct"><a href="#"><i class="bi bi-x-circle"></i></a></td>
                     <td><img src="../../img/products/f1.jpg" alt="Product"></td>
                     <td>Cartoon Astronaut T-Shirt</td>
                     <td>€78</td>
                     <td><input type="number" value="1" min="0"></td>
                     <td>€78</td>
                 </tr>
-                <tr>
-                    <td><a href="#"><i class="bi bi-x-circle"></i></a></td>
+                <tr id="product2">
+                    <td class="removeProduct"><a href="#"><i class="bi bi-x-circle"></i></a></td>
                     <td><img src="../../img/products/f2.jpg" alt="Product"></td>
                     <td>Cartoon Astronaut T-Shirt</td>
                     <td>€78</td>
                     <td><input type="number" value="1" min="0"></td>
                     <td>€78</td>
                 </tr>
-                <tr>
-                    <td><a href="#"><i class="bi bi-x-circle"></i></a></td>
+                <tr id="product3">
+                    <td class="removeProduct"><a href="#"><i class="bi bi-x-circle"></i></a></td>
                     <td><img src="../../img/products/f3.jpg" alt="Product"></td>
                     <td>Cartoon Astronaut T-Shirt</td>
                     <td>€78</td>
@@ -80,8 +80,13 @@
         <div class="sara__cartAdd-apply">
             <h3>Apply Coupon</h3>
             <div class="sara__cartAdd-apply_input">
-                <input type="text" placeholder="Enter Your Coupon">
-                <button class="normal-button">Apply</button>
+                <input id="inputCoupon" type="text" placeholder="Enter Your Coupon">
+                <button id="apply" class="normal-button">Apply</button>
+                <div id="couponTxt">
+                    <p>Try: 10OFF</p>
+                    <p id="invalid">Invalid Coupon!</p>
+                    <p id="applied">Coupon Applied!</p>
+                </div>
             </div>
         </div>
         <div class="sara__cartAdd-totals">
@@ -98,7 +103,7 @@
                     </tr>
                     <tr>
                         <td>Total</td>
-                        <td>€234</td>
+                        <td id="total">€234</td>
                     </tr>
                 </tbody>
             </table>

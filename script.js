@@ -18,6 +18,36 @@ function closeMenu() {
     nav.classList.remove('active')
 }
 
+// Discount Coupon Validation
+
+const inputCoupon = document.getElementById('inputCoupon')
+const applyDiscount = document.getElementById('apply')
+const total = document.getElementById('total')
+const invalid = document.getElementById('invalid')
+const applied = document.getElementById('applied')
+
+applyDiscount.onclick = function() {
+    if (inputCoupon.value === "10OFF") {    
+        //TODO - function to apply discount
+        invalid.style.display = "none"
+        applied.style.display = "block"
+    } else {
+        applied.style.display = "none"
+        invalid.style.display = "block"
+    }
+}
+
+// Remove product from cart
+
+//TODO - Function to remove a product from cart
+
+const removeProduct = document.querySelector('.removeProduct')
+const product = document.querySelector
+
+removeProduct.onclick = function() {
+    removeProduct.classList.add("productOut")
+}
+
 
 // Change product details photo
 
@@ -36,4 +66,3 @@ smallImg[2].onclick = function() {
 smallImg[3].onclick = function() {
     mainImg.src = smallImg[3].src
 }
-

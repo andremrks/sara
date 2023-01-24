@@ -94,6 +94,11 @@
     width: 60%;
 }
 
+.sara__cartAdd-apply_input p {
+    font-size: 1rem;
+    margin: .5rem;
+}
+
 .sara__cartAdd-totals {
     width: 50%;
     border: 1px solid #e1e1e1;
@@ -135,4 +140,18 @@
 
 .sara__cartAdd-totals button:hover, .sara__cartAdd-apply_input button:hover {
     background-color: #076b66;
+}
+
+#invalid {
+    color: #ed0010;
+    display: none;
+}
+
+#applied {
+    color: #63a355;
+    display: none;
+}
+
+.productOut {
+    display: none;
 }
