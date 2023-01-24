@@ -47,30 +47,32 @@
                     <td>Subtotal</td>
                 </tr>
             </thead>
+        </table>
+        <table id="productsTable">
             <tbody>
                 <tr id="product1">
-                    <td class="removeProduct"><a href="#"><i class="bi bi-x-circle"></i></a></td>
+                    <td id="removeProduct1"><a href="#"><i class="bi bi-x-circle"></i></a></td>
                     <td><img src="../../img/products/f1.jpg" alt="Product"></td>
                     <td>Cartoon Astronaut T-Shirt</td>
                     <td>€78</td>
-                    <td><input type="number" value="1" min="0"></td>
-                    <td>€78</td>
+                    <td><input id="quantityP1" type="number" value="1" min="0" max="10"></td>
+                    <td id="totalP1">€78</td>
                 </tr>
                 <tr id="product2">
-                    <td class="removeProduct"><a href="#"><i class="bi bi-x-circle"></i></a></td>
+                    <td id="removeProduct2"><a href="#"><i class="bi bi-x-circle"></i></a></td>
                     <td><img src="../../img/products/f2.jpg" alt="Product"></td>
                     <td>Cartoon Astronaut T-Shirt</td>
                     <td>€78</td>
-                    <td><input type="number" value="1" min="0"></td>
-                    <td>€78</td>
+                    <td><input id="quantityP2" type="number" value="1" min="0" max="10"></td>
+                    <td id="totalP2">€78</td>
                 </tr>
                 <tr id="product3">
-                    <td class="removeProduct"><a href="#"><i class="bi bi-x-circle"></i></a></td>
+                    <td id="removeProduct3"><a href="#"><i class="bi bi-x-circle"></i></a></td>
                     <td><img src="../../img/products/f3.jpg" alt="Product"></td>
                     <td>Cartoon Astronaut T-Shirt</td>
                     <td>€78</td>
-                    <td><input type="number" value="1" min="0"></td>
-                    <td>€78</td>
+                    <td><input id="quantityP3" type="number" value="1" min="0" max="10"></td>
+                    <td id="totalP3">€78</td>
                 </tr>
             </tbody>
         </table>
@@ -95,15 +97,19 @@
                 <tbody>
                     <tr>
                         <td>Cart Subtotal</td>
-                        <td>€234</td>
+                        <td id="subTotalCart">€234</td>
                     </tr>
                     <tr>
                         <td>Shipping</td>
                         <td>Free</td>
                     </tr>
+                    <tr id="discountRow">
+                        <td>Discount</td>
+                        <td>-€23.40</td>
+                    </tr>
                     <tr>
                         <td>Total</td>
-                        <td id="total">€234</td>
+                        <td id="totalCart">€234</td>
                     </tr>
                 </tbody>
             </table>
