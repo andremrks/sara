@@ -891,7 +891,7 @@ p {
     opacity: 0;
     filter: blur(3px);
     transform: translateX(-150px);
-    transition: all 1s;
+    transition: all .8s;
 }
 
 .show {
