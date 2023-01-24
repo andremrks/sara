@@ -50,21 +50,23 @@ applyDiscount.onclick = function() {
 
 // Function to remove a product from cart
 
-const productsTable = document.getElementById('productsTable')
+const product1 = document.getElementById('product1')
+const product2 = document.getElementById('product2')
+const product3 = document.getElementById('product3')
 
 const removeProduct1 = document.getElementById('removeProduct1')
 removeProduct1.onclick = function() {
-    productsTable.deleteRow(productsTable[0])
+    product1.remove()
 }
 
 const removeProduct2 = document.getElementById('removeProduct2')
 removeProduct2.onclick = function() {
-    productsTable.deleteRow(productsTable[1])
+    product2.remove()
 }
 
 const removeProduct3 = document.getElementById('removeProduct3')
 removeProduct3.onclick = function() {
-    productsTable.deleteRow(productsTable[2])
+    product3.remove()
 }
 
 
